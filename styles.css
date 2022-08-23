@@ -1,0 +1,103 @@
+body {
+  background: rgb(42, 41, 43);
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+/* LIST STYLING */
+#list-output {
+  color: whitesmoke;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  scale: 1.5;
+}
+.item {
+  width: 97%;
+  margin-bottom: 0.625rem;
+  font-size: 1.25rem;
+  color: #11998e;
+}
+#created-time {
+  font-size: 0.725rem;
+  color: #919191;
+}
+.delete-button {
+  float: right;
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: url('https://api.iconify.design/fluent/delete-12-regular.svg?color=%23919191') no-repeat center center / contain;
+  font-size: 1.2rem;
+  color: #074641;
+  cursor: pointer;
+}
+  .delete-button:hover {
+    background: url('https://api.iconify.design/fluent/delete-12-regular.svg?color=%2311998e') no-repeat center center / contain;
+  }
+
+/* FORM STYLING */
+.todo-form {
+  position: relative;
+  padding: 15px;
+  margin-top: 30vh;
+}
+
+.input-todo {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.input-todo::placeholder {
+  color: transparent;
+}
+.input-todo:placeholder-shown ~ .input-todo-label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.input-todo-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+.input-todo:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.input-todo:focus ~ .input-todo-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}
+/* reset input */
+.input-todo:required,
+.input-todo:invalid {
+  box-shadow: none;
+}
+#error {
+    color: red;
+}
