@@ -1,6 +1,5 @@
-import {todoObj, addToLocalStorage} from '/js/localStorage.js';
-export {addTodo, inputTodo}
-
+import { todoObj, addToLocalStorage } from "./js/localStorage.js";
+export { addTodo, inputTodo };
 
 const inputTodo = document.getElementById("input-todo");
 const errorMsg = document.getElementById("error");
