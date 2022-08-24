@@ -1,4 +1,4 @@
-import { todoObj, addToLocalStorage } from "todoList/js/localStorage.js";
+import { todoObj, addToLocalStorage } from "./localStorage.js";
 export { addTodo, inputTodo };
 
 const inputTodo = document.getElementById("input-todo");

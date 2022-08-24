@@ -1,4 +1,4 @@
-import { listOutput } from "todoList/js/app.js";
+import { listOutput } from "./app.js";
 export { renderTodos };
 
 // Render todo
