@@ -1,5 +1,6 @@
 body {
   background: rgb(42, 41, 43);
+  font-family: 'Inter', sans-serif;
 }
 .container {
   width: 600px;
