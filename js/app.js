@@ -1,6 +1,6 @@
 import { renderTodos } from "./render.js";
 import { addTodo, inputTodo } from "./addItem.js";
-import {addToLocalStorage, deleteTodo, getFromLocalStorage, todoObj} from "/js/localStorage.js";
+import {addToLocalStorage, deleteTodo, getFromLocalStorage, todoObj} from "./localStorage.js";
 export { listOutput, todoObj };
 
 const todoForm = document.querySelector(".todo-form");
