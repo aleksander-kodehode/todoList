@@ -1,5 +1,5 @@
-import { renderTodos } from "/js/render.js";
-import { addTodo, inputTodo } from "/js/addItem.js";
+import { renderTodos } from "./js/render.js";
+import { addTodo, inputTodo } from "./js/addItem.js";
 import {addToLocalStorage, deleteTodo, getFromLocalStorage, todoObj} from "/js/localStorage.js";
 export { listOutput, todoObj };
 

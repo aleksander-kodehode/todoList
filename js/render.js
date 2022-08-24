@@ -1,4 +1,4 @@
-import { listOutput } from "/js/app.js";
+import { listOutput } from "./js/app.js";
 export { renderTodos };
 
 // Render todo
