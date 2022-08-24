@@ -1,4 +1,4 @@
-import { renderTodos } from "todolist/js/render.js";
+import { renderTodos } from "todoList/js/render.js";
 export { addToLocalStorage, deleteTodo, getFromLocalStorage, todoObj };
 
 let todoObj = [];
